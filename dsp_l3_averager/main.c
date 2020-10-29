@@ -20,8 +20,6 @@ uint16_t processSample(uint16_t x) {
     float32_t r = 0.125f * (taps[1] + taps[2] + taps[3] + taps[4] + taps[5] + taps[6] + taps[7] + taps[8]);
 
     return f32_to_dac14(r);
-
-    return x;
 }
 
 #include <stdio.h>
