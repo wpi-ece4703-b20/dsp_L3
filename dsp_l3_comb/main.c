@@ -17,8 +17,6 @@ uint16_t processSample(uint16_t x) {
     taps[0] = input;
 
     return f32_to_dac14(taps[0] - taps[8]);
-
-    return x;
 }
 
 #include <stdio.h>
